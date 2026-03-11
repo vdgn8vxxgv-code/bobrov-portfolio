@@ -92,12 +92,12 @@ nav a.active {
 .hero,
 .page-hero {
   background:
-    linear-gradient(rgba(255,251,245,0.96), rgba(255,251,245,0.96)),
-    radial-gradient(circle at top left, #d8ccb7, transparent 42%);
+    linear-gradient(rgba(255,253,249,0.88), rgba(255,253,249,0.88)),
+    radial-gradient(circle at top left, #e4ddd0, transparent 40%);
 }
 
 .academic-hero {
-  padding: 28px 0 48px;
+  padding: 64px 0 56px;
   border-bottom: 1px solid var(--line);
 }
 
@@ -119,12 +119,12 @@ nav a.active {
 }
 
 .hero-photo {
-  width: 240px;
-  height: 300px;
+  width: 220px;
+  height: 280px;
   object-fit: cover;
-  border-radius: 14px;
+  border-radius: 10px;
   border: 8px solid #fff;
-  box-shadow: 0 18px 34px rgba(24, 39, 75, 0.14);
+  box-shadow: var(--shadow);
   background: #ddd;
 }
 
@@ -143,10 +143,10 @@ h1 {
 }
 
 h2 {
-  font-size: 2.15rem;
+  font-size: 2rem;
   line-height: 1.2;
   margin: 0 0 18px;
-  color: #1d2c40;
+  color: #223247;
 }
 
 h3 {
@@ -175,12 +175,11 @@ h3 {
 
 .btn {
   display: inline-block;
-  padding: 13px 22px;
+  padding: 12px 18px;
   border-radius: 999px;
   border: 1px solid var(--accent);
   color: var(--accent);
-  background: #fffdf9;
-  font-weight: 600;
+  background: transparent;
   transition: 0.2s ease;
 }
 
@@ -210,11 +209,11 @@ h3 {
 .project-card,
 .publication-card,
 .contact-box {
-  background: #fffefa;
-  border: 1px solid #d8cfbf;
-  border-radius: 16px;
-  box-shadow: 0 14px 28px rgba(24, 39, 75, 0.08);
-  padding: 26px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 24px;
 }
 
 .feature-grid,
