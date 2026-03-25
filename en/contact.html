@@ -7,42 +7,13 @@
   <meta name="description" content="Contact page of Sergey Bobrov: research, engineering, analytics, and collaboration inquiries.">
   <link rel="stylesheet" href="../style.css">
   <style>
-    .form-grid {
-      display: grid;
-      gap: 16px;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-    .form-grid .full {
-      grid-column: 1 / -1;
-    }
-    .form-field label {
-      display: block;
-      margin-bottom: 6px;
-      font-weight: 600;
-      color: #223247;
-    }
-    .form-field input,
-    .form-field textarea {
-      width: 100%;
-      padding: 12px 14px;
-      border: 1px solid #cfc6b8;
-      border-radius: 12px;
-      background: #fffdf9;
-      color: #1f2937;
-      font: inherit;
-    }
-    .form-field textarea {
-      min-height: 180px;
-      resize: vertical;
-    }
-    .contact-links p {
-      margin: 0 0 10px;
-    }
-    @media (max-width: 820px) {
-      .form-grid {
-        grid-template-columns: 1fr;
-      }
-    }
+    .form-grid { display: grid; gap: 16px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .form-grid .full { grid-column: 1 / -1; }
+    .form-field label { display: block; margin-bottom: 6px; font-weight: 600; color: #223247; }
+    .form-field input, .form-field textarea { width: 100%; padding: 12px 14px; border: 1px solid #cfc6b8; border-radius: 12px; background: #fffdf9; color: #1f2937; font: inherit; }
+    .form-field textarea { min-height: 180px; resize: vertical; }
+    .contact-links p { margin: 0 0 10px; }
+    @media (max-width: 820px) { .form-grid { grid-template-columns: 1fr; } }
   </style>
 </head>
 <body>
@@ -53,6 +24,7 @@
         <a href="index.html">Home</a>
         <a href="projects.html">Projects</a>
         <a href="publications.html">Publications</a>
+        <a href="inventory-optimization-case.html">Case Study</a>
         <a class="active" href="contact.html">Contact</a>
         <a href="../cv/Sergey_Bobrov_CV_EN.pdf" target="_blank" rel="noopener">Resume</a>
         <a href="../ru/contact.html">RU</a>
@@ -120,6 +92,7 @@
 
             <div class="hero-buttons">
               <button class="btn primary" type="submit">Send Message</button>
+              <a class="btn" href="inventory-optimization-case.html">Open Case Study</a>
               <a class="btn" href="index.html">Back to Home</a>
             </div>
           </form>
