@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Кейс по оптимизации запасов | Сергей Бобров</title>
+  <meta name="description" content="Кейс: оптимизация запасов и Python-based decision support для повышения эффективности производства и складской логистики.">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">Сергей Бобров</a>
+      <nav>
+        <a href="index.html">Главная</a>
+        <a href="projects.html">Проекты</a>
+        <a href="publications.html">Публикации</a>
+        <a class="active" href="inventory-optimization-case.html">Кейс</a>
+        <a href="contact.html">Контакты</a>
+        <a href="../cv/Sergey_Bobrov_CV_RU.pdf" target="_blank" rel="noopener">CV</a>
+        <a href="../en/inventory-optimization-case.html">EN</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container narrow">
+      <p class="kicker">Кейс</p>
+      <h1>Оптимизация запасов и поддержка принятия решений</h1>
+      <p class="headline">Практический проект на стыке прикладной математики, исследования операций и Python-аналитики для улучшения политики запасов, складской эффективности и качества управленческих решений в промышленной среде.</p>
+      <div class="hero-buttons">
+        <a class="btn primary" href="index.html">Назад к портфолио</a>
+        <a class="btn" href="#results">Смотреть результаты</a>
+      </div>
+    </div>
+  </section>
+
+  <main class="page-main">
+    <section class="section">
+      <div class="container narrow">
+        <div class="panel">
+          <h2>Обзор</h2>
+          <p>Этот кейс показывает, как математическое моделирование может быть переведено в практические улучшения производственных и логистических процессов. Проект был сосредоточен на проектировании политики запасов, логике пополнения, оптимизации складского footprint и сценарной поддержке принятия решений.</p>
+          <p>Цель состояла не только в снижении затрат, но и в создании более устойчивой системы принятия решений для работы с неопределенностью, service levels, lead times и складскими ограничениями в рамках портфеля номенклатуры.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="results">
+      <div class="container">
+        <h2>Ключевые результаты</h2>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-number">50%</div>
+            <div class="stat-label">Снижение сквозного lead time обработки заказов</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">30%</div>
+            <div class="stat-label">Снижение затрат на хранение и содержание складских запасов</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">Python</div>
+            <div class="stat-label">Аналитический инструмент для тестирования сценариев и рекомендаций по параметрам</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container narrow">
+        <article class="project-card">
+          <h2>Бизнес-задача</h2>
+          <p>Операционная среда требовала лучшего баланса между риском дефицита, целевыми уровнями сервиса и затратами на хранение. Существующая практика пополнения нуждалась в более структурированной аналитической основе, которая учитывала бы lead time, минимальные партии заказа, складские ограничения и неоднородные паттерны спроса.</p>
+          <p>Второй задачей была эффективность workflow. Последовательные и параллельные производственные процессы влияли на сроки завершения заказов, а решения по размещению запасов на складе отражались как на затратах, так и на операционной гибкости.</p>
+        </article>
+
+        <article class="project-card">
+          <h2>Аналитический подход</h2>
+          <p>В проекте использовались инструменты прикладной математики и исследования операций для перевода практических бизнес-ограничений в оптимизационную логику. Анализ включал сегментацию спроса, оценку safety stock, расчет target inventory, правила пополнения и оценку компромиссов между затратами и риском.</p>
+          <ul class="clean-list">
+            <li>Сегментация спроса по регулярным, нерегулярным и сезонным паттернам потребления.</li>
+            <li>Проектирование политики запасов с учетом service level, lead time, MOQ и capacity constraints.</li>
+            <li>Расчет safety stock и target stock для более надежных решений по пополнению.</li>
+            <li>Сценарный анализ и sensitivity testing для устойчивости решений.</li>
+            <li>Оптимизация производственного workflow для сокращения cycle time.</li>
+            <li>Логика консолидации складов для снижения затрат на хранение.</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <h2>Архитектура решения</h2>
+          <p>Был разработан Python-based decision-support tool для оценки альтернативных параметров пополнения и сравнения операционных сценариев. Инструмент позволил системно анализировать компромиссы между доступностью запасов, оборотным капиталом и эффективностью использования складских мощностей.</p>
+          <p>Параллельно оптимизационные модели применялись к логике производственной последовательности и размещения запасов на складе. Это позволило повысить пропускную способность операций при одновременном снижении избыточного использования складского пространства.</p>
+        </article>
+
+        <article class="project-card">
+          <h2>Почему это важно</h2>
+          <p>Этот проект показывает мой подход к industrial analytics: начать с реальной операционной проблемы, формализовать ее математически и довести до решения, которое одновременно строгое с технической точки зрения и практически пригодное для decision-makers.</p>
+          <p>Он также отражает более широкий фокус моей работы на стыке прикладной математики, оптимизации, data science и поддержки принятия решений в сложных технических средах.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <h2>Методы и инструменты</h2>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <h3>Прикладная математика</h3>
+            <p>Математическая формализация операционных процессов, ограничений и trade-offs.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Исследование операций</h3>
+            <p>Оптимизационная логика для пополнения запасов, sequencing workflows и складских решений.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Python-аналитика</h3>
+            <p>Сценарное моделирование, анализ чувствительности и практические инструменты поддержки решений.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Supply Chain Focus</h3>
+            <p>Оптимизация запасов, проектирование service level и экономически эффективное управление складскими ресурсами.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section">
+      <div class="container narrow">
+        <div class="contact-box">
+          <h2>Контакты</h2>
+          <p>Открыт к предложениям в области industrial R&amp;D, optimization и decision analytics, а также к сотрудничеству в прикладной математике и исследовании операций.</p>
+          <p><strong>Email:</strong> <a href="mailto:bobrov_sn@yahoo.com">bobrov_sn@yahoo.com</a></p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/serguei-bobrov-8429318">linkedin.com/in/serguei-bobrov-8429318</a></p>
+          <p><strong>Портфолио:</strong> <a href="index.html">Вернуться на главную страницу портфолио</a></p>
+          <div class="hero-buttons">
+            <a class="btn primary" href="index.html">Назад к портфолио</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Сергей Бобров. Academic portfolio hosted on GitHub Pages.</p>
+    </div>
+  </footer>
+</body>
+</html>
